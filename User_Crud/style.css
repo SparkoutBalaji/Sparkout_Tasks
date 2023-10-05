@@ -1,0 +1,53 @@
+*
+{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: silver;
+}
+#cu
+{
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+#for{
+  align-items: center;
+  position: absolute;
+  width:240px;
+  margin: 0;
+  display: flex;
+  background-color: purple;
+  padding: 20px;
+  align-content: center;
+  color: white;
+  font-size:large;
+  
+}
+#name
+{
+    width: 220px;
+    margin-top: 10px;
+}
+#mail
+{
+  width: 220px;
+  margin-top: 10px;
+}
+#dob
+{
+  width: 220px;
+  margin-top: 10px;
+}
+#address
+{
+  width: 220px;
+  margin-top: 10px;
+}
+#img
+{
+  width: 220px;
+  margin-top: 10px;
+}

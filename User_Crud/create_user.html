@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>USER_CRUD</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <table>
+      <tr>
+        <td>
+            <div id="for">
+            <form class="form">
+              <div>
+                <p id="cu">CREATE USER</p>
+                <!-- for user name -->
+                <div class="span">
+                <p>Name <br>
+                <input type="text" name="name" id="name" placeholder="Name"> </p>
+                <span></span>
+            </div>
+                <!-- for user mail id -->
+                <div class="span">
+                <p>Email <br>
+                <input type="text" name="mail" id="mail" placeholder="Mail ID" > </p>
+                <span></span>
+                </div>div>
+                <!-- for user date of birth -->
+                <div class="span">
+                <p>Date of Birth <br>
+                <input type="date" name="dob" id="dob" placeholder="Date of Birth" required> </p>
+                <span></span>
+            </div>
+                <!-- for user address -->
+                <div class="span">
+                Address <br>
+                <textarea name="address" id="address" cols="30" rows="5" placeholder="Address" required></textarea> <br>
+                <span></span>
+            </div>
+                <!-- for user profile image upload-->
+                <div class="span">
+                <p>Upload Image : 
+                  <input type="file" name="img" id="img" accept="image/png, image/jpeg" required>
+                </p>
+                <span></span>
+            </div>
+                <!--user Gender-->
+                <div class="span">
+                <p>Gender <br>
+                <input type="radio" name="gender" class="gender" id="male" value="Male" required>Male <br>
+                <input type="radio" name="gender" class="gender" id="female" value="Female">Female <br>
+                <input type="radio" name="gender" class="gender" id="Transgender" value="Transgender">Transgender <br></p>
+                <span></span>
+            </div>
+                <!--user hobbies-->
+                <div class="span">
+                <p>Hobbies <br> 
+                <input type="checkbox" name="hobbies" class="hobbies" id="dance" value="Dance" required>
+                Dance <br>
+                <input type="checkbox" name="hobbies" class="hobbies" id="singing" value="Singing">
+                Singing <br>
+                <input type="checkbox" name="hobbies" class="hobbies" id="outdoor_game" value="Outdoor Game">
+                Outdoor Game <br>
+                <input type="checkbox" name="hobbies" class="hobbies" id="Indoor_game" value="Indoor Game">
+                Indoor Game </p>
+                <span></span>
+            </div>
+            </div>
+              <input type="submit" value="Create" id="submit">
+            </form>
+        </div>
+        </td>
+      </tr>
+
+    </table>
+    
+</body>
+</html>
