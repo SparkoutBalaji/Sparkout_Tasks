@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <title>Crud Operation</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td id="form">
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="dob">DOB</label>
+                        <input type="date" name="dob" id="dob">
+                    </div>
+                    <div>
+                        <label for="address">Address</label><br>
+                        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="profile_image">Profile Image</label> <br>
+                        <input type="file" name="profile_image" id="profile_image">
+                    </div>
+                    <div>
+                        <label for="gender">Gender</label> <br>
+                        <select name="gender" id="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Transgender">Transgender</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="hobbies">Hobbies</label> <br>
+                        <select name="hobbies" id="hobbies" multiple>
+                            <option value="Dance">Dance</option>
+                            <option value="Singing">Singing</option>
+                            <option value="Gaming">Gaming</option>
+                        </select>
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>DOB</th>
+                                <th>Address</th>
+                                <th>Profile Image</th>
+                                <th>Gender</th>
+                                <th>Hobbies</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
